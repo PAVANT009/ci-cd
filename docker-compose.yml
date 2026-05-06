@@ -1,0 +1,8 @@
+services:
+
+  backend:
+    image: pavansangeetham/backend-api:latest
+    container_name: backend
+    restart: always
+    ports:
+      - "3000:3000"
